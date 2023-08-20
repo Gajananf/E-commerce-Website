@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce website</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"> <img src="Star Website/images/mainlogo.png" alt="" class="logo"></a>
+        <div class="container">
+            <ul id="navbar">
+                <li><a  href="index.html" >Home</a></li>
+                <li><a href="Shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a  href="contact.html">Contacts</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><img src="Star Website/images/cartimg.png" width="30px" height="30px" alt=""></a></li>
+                <a href="#" id="close"><img src="Star Website/images/close.png" alt="">
+                </a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><img src="Star Website/images/cartimg.png" width="30px" height="30px" alt=""></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href=""><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="Star Website/images/work/3.jpg" alt=""></td>
+                    <td>Water Fire Extinguisher</td>
+                    <td>2140 INR</td>
+                    <td><input type="number" value="1"></td>
+                    <td>2140 INR</td>
+                </tr>
+                <tr>
+                    <td><a href=""><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="Star Website/images/work/5.jpg" alt=""></td>
+                    <td>Clean AgentFire Extinguisher</td>
+                    <td>2903 INR</td>
+                    <td><input type="number" value="1"></td>
+                    <td>2903 INR</td>
+                </tr>
+                <tr>
+                    <td><a href=""><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="Star Website/images/team/05.jpg" alt=""></td>
+                    <td>Co2Fire Extinguisher</td>
+                    <td>1400 INR</td>
+                    <td><input type="number" value="1"></td>
+                    <td>1400 INR</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button>Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Subtotal</h3>
+            <table class="tab">
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>3490 INR</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>3490 INR</strong></td>
+                </tr>
+            </table>
+            <button>Proceed to checkout</button>
+        </div>
+    </section>
+
+    <footer class="section-p1" >
+        <div class="col">
+            <img class="foot-logo" src="Star Website/images/mainlogo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 57/2 Mahalaxi Nagar, Nagpur, Maharashtra.</p>
+            <p><strong>Phone:</strong> (+91) 86 0086 2624</p>
+            <p><strong>Hours:</strong> 10:00 - 18:00 , Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Conatct us</a>
+        </div>
+        <div class="col">
+            <h4>Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="payment">
+            <h4>Install Apps</h4>
+            <p>From AppStore or Google</p>
+            <img src="slider/playstore.png" width="300px" alt="">
+            <p>Secured payment Gateways</p>
+            <img src="slider/payment1.png"  width="300px" alt="">
+        </div>
+        <div class="copyright">
+            <p>© 2016 Nagpur India,Inc. All rights reserved</p>
+        </div>
+    </footer>
+
+   <script src="script.js"></script> 
+</body>
+</html>
